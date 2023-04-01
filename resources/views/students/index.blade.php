@@ -1,6 +1,8 @@
 @include('partials.header')
 <?php $array = ['title' => 'Student System']; ?>
 <x-nav :data="$array" />
+
+
 <header class="max-w-lg mx-auto mt-5">
     <a href="#">
         <h1 class="text-4xl font-bold text-white text-center">Dashboard</h1>
